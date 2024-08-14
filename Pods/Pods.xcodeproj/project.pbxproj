@@ -2383,7 +2383,6 @@
 		11D58CDB406CFD79E7AC3E81C6B8B7BD /* Pods-Delta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Delta-dummy.m"; sourceTree = "<group>"; };
 		11D6B4F6E066DF2E8ED26399CF6D7821 /* render3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = render3D.h; sourceTree = "<group>"; };
 		12340527430BF0F362B63C225065A253 /* opengl_BufferManipulationObjectFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opengl_BufferManipulationObjectFactory.h; sourceTree = "<group>"; };
-		124964D430BDECDD8B9B980AACE91E8C /* Harmony 2.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "Harmony 2.xcdatamodel"; sourceTree = "<group>"; };
 		124DA3F029DAB83892517A557F6DBEF8 /* NstInpTopRider.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = NstInpTopRider.hpp; sourceTree = "<group>"; };
 		128C3071C7E4921117911F5616F7B272 /* ManagedRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManagedRecord.swift; sourceTree = "<group>"; };
 		1297B20DFF4473E5F547712B85C19A4C /* missing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = missing.h; sourceTree = "<group>"; };
@@ -2701,6 +2700,7 @@
 		3996F6488831487C7AA7EAB7511543DA /* NstBoardWaixingPs2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = NstBoardWaixingPs2.hpp; sourceTree = "<group>"; };
 		39E88053160E909EE0AD49CAC49DAE99 /* ftmodapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftmodapi.h; sourceTree = "<group>"; };
 		3A0000613E36DF51ECED5B39B217EB4B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		3A59BD1A1964C0F7D5043B26D9368063 /* Harmony 2.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "Harmony 2.xcdatamodel"; sourceTree = "<group>"; };
 		3A66FC57CF12C4C7F15051EABEBF706E /* Err.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = Err.hpp; sourceTree = "<group>"; };
 		3A6BEE1354AB3BB2C198E3B84CE0FD32 /* NstBoardKayPandaPrince.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = NstBoardKayPandaPrince.hpp; sourceTree = "<group>"; };
 		3AAF5A370221319ED336FD38BFB973A3 /* lua-engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lua-engine.h"; sourceTree = "<group>"; };
@@ -3197,6 +3197,7 @@
 		79096D906F7AF34756EE89FD73D49F70 /* cached_interp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cached_interp.h; sourceTree = "<group>"; };
 		7914DE489BB276AE0049FA0D58DE4DA5 /* game_controller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = game_controller.h; sourceTree = "<group>"; };
 		791E2F50ABC6974A9FCB2BC6FFD052B3 /* pngwutil.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pngwutil.c; sourceTree = "<group>"; };
+		7967282CB379A6E526310180793E1190 /* Harmony.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = Harmony.xcdatamodel; sourceTree = "<group>"; };
 		79726DFC76B227BC4EBE831292148FCC /* NstVideoRenderer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = NstVideoRenderer.hpp; sourceTree = "<group>"; };
 		79850525864D43CEE846DDB866D61E85 /* Platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
 		7992DF58A03B979D2C28021F9A285D86 /* ZilmarGFX_1_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZilmarGFX_1_3.h; sourceTree = "<group>"; };
@@ -3219,6 +3220,7 @@
 		7C98EA2F212D9FC60C4C52591A2351B6 /* AppAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-umbrella.h"; sourceTree = "<group>"; };
 		7CADAC9681F97C7BA6737523C8485566 /* ResourceBundle-NESDeltaCore-NESDeltaCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NESDeltaCore-NESDeltaCore-Info.plist"; sourceTree = "<group>"; };
 		7CE529984247F0D4B4C84FC43F503559 /* NstMemory.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = NstMemory.hpp; sourceTree = "<group>"; };
+		7CF2CC6D5BE63E87DB1F454711E453BD /* Harmony 3.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "Harmony 3.xcdatamodel"; sourceTree = "<group>"; };
 		7CFFFA1D5341196B3D469781675F7F87 /* NSString+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Localization.h"; path = "Roxas/NSString+Localization.h"; sourceTree = "<group>"; };
 		7D0099BB4D934D97A53DFEC8FEFE075B /* DSi_I2C.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSi_I2C.h; sourceTree = "<group>"; };
 		7D0E8C6AC2D4B8988D4640690AB92CD7 /* GBI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GBI.h; sourceTree = "<group>"; };
@@ -3283,7 +3285,6 @@
 		83716FD2276166E4399FF9F40DC2D268 /* mi_controller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mi_controller.h; sourceTree = "<group>"; };
 		838392E1DA72E275361A75F4487346CA /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
 		83AF443222FD006C987B73C4B7720ADD /* S2DEX2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = S2DEX2.h; sourceTree = "<group>"; };
-		83CDF61449D8A252A49188AD8C31C79D /* Harmony.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = Harmony.xcdatamodel; sourceTree = "<group>"; };
 		8406B153DF09A3DC829DAF90D1C24127 /* NstMachine.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = NstMachine.hpp; sourceTree = "<group>"; };
 		844403BA0FA3541347B6E706E52FA73E /* Platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
 		844F6EF3E43F3AF5908FCC044DE872CF /* NstDatabase.xml */ = {isa = PBXFileReference; includeInIndex = 1; path = NstDatabase.xml; sourceTree = "<group>"; };
@@ -3860,7 +3861,6 @@
 		CB41699D4C5AC2AFBD30F2473705EC1F /* GBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GBC.swift; sourceTree = "<group>"; };
 		CB7C95528D21C181DD0A15EA00BB253E /* NstBoardNRom.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = NstBoardNRom.hpp; sourceTree = "<group>"; };
 		CBDA9BCF2343410A45207B8BA198A99B /* ftwinfnt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftwinfnt.h; sourceTree = "<group>"; };
-		CC1EE30173F2C452AC2C4A58DE645F62 /* Harmony 3.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "Harmony 3.xcdatamodel"; sourceTree = "<group>"; };
 		CCB75B16DA2B5445403A380C6D0EAB93 /* SMClassicCalloutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMClassicCalloutView.m; sourceTree = "<group>"; };
 		CCFF79507F169F74B68C445BA304BD5F /* UITableViewCell+CellContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+CellContent.m"; path = "Roxas/UITableViewCell+CellContent.m"; sourceTree = "<group>"; };
 		CD09633894B96DBC6EE69B8E30277EAF /* DepthBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DepthBuffer.h; sourceTree = "<group>"; };
@@ -8632,7 +8632,7 @@
 			isa = PBXGroup;
 			children = (
 				7636C455549B15F6B7C1DFC45F47BB42 /* Harmony.h */,
-				9CEBBB97BE37026CDB6D14303E969EA9 /* Harmony.xcdatamodeld */,
+				426F281F47E100E7142FA95C591E43C2 /* Harmony.xcdatamodeld */,
 				D994E6CEFFB6A2EB2BC22D62D7FB92C4 /* SyncCoordinator.swift */,
 				5DCD7E78024F62E5879C6255021A40C9 /* Core Data */,
 				82AB2F9FD2B42DEDDB4DB549ADC1CF1D /* Extensions */,
@@ -11029,8 +11029,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -14411,14 +14411,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9CEBBB97BE37026CDB6D14303E969EA9 /* Harmony.xcdatamodeld */ = {
+		426F281F47E100E7142FA95C591E43C2 /* Harmony.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				83CDF61449D8A252A49188AD8C31C79D /* Harmony.xcdatamodel */,
-				124964D430BDECDD8B9B980AACE91E8C /* Harmony 2.xcdatamodel */,
-				CC1EE30173F2C452AC2C4A58DE645F62 /* Harmony 3.xcdatamodel */,
+				7967282CB379A6E526310180793E1190 /* Harmony.xcdatamodel */,
+				3A59BD1A1964C0F7D5043B26D9368063 /* Harmony 2.xcdatamodel */,
+				7CF2CC6D5BE63E87DB1F454711E453BD /* Harmony 3.xcdatamodel */,
 			);
-			currentVersion = CC1EE30173F2C452AC2C4A58DE645F62 /* Harmony 3.xcdatamodel */;
+			currentVersion = 7CF2CC6D5BE63E87DB1F454711E453BD /* Harmony 3.xcdatamodel */;
 			name = Harmony.xcdatamodeld;
 			path = "Harmony/Model/Core Data/Harmony.xcdatamodeld";
 			sourceTree = "<group>";
