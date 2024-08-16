@@ -1,0 +1,6 @@
+framework module Pods_Delta_Vision {
+  umbrella header "Pods-Delta-Vision-umbrella.h"
+
+  export *
+  module * { export * }
+}

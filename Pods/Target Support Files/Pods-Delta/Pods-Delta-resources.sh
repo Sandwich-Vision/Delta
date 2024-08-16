@@ -98,7 +98,7 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DSDeltaCore/DSDeltaCore.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore/DeltaCore.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore-library/DeltaCore.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/GBADeltaCore/GBADeltaCore.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/GBCDeltaCore/GBCDeltaCore.bundle"
   install_resource "${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle"
@@ -111,10 +111,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../External/Roxas/Roxas/RSTCollectionViewCell.xib"
   install_resource "${PODS_ROOT}/../External/Roxas/Roxas/RSTPlaceholderView.xib"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SNESDeltaCore/SNESDeltaCore.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-library/ZIPFoundation_Privacy.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DSDeltaCore/DSDeltaCore.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore/DeltaCore.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore-library/DeltaCore.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/GBADeltaCore/GBADeltaCore.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/GBCDeltaCore/GBCDeltaCore.bundle"
   install_resource "${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle"
@@ -127,6 +128,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../External/Roxas/Roxas/RSTCollectionViewCell.xib"
   install_resource "${PODS_ROOT}/../External/Roxas/Roxas/RSTPlaceholderView.xib"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SNESDeltaCore/SNESDeltaCore.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-library/ZIPFoundation_Privacy.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

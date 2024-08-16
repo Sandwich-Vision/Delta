@@ -5,7 +5,8 @@
   "description": "iOS framework that powers Delta emulator.",
   "homepage": "https://github.com/rileytestut/DeltaCore",
   "platforms": {
-    "ios": "14.0"
+    "ios": "14.0",
+    "visionos": "1.0"
   },
   "source": {
     "git": "https://github.com/rileytestut/DeltaCore.git"
@@ -27,7 +28,7 @@
   },
   "dependencies": {
     "ZIPFoundation": [
-
+      "~> 0.9.19"
     ]
   },
   "xcconfig": {

@@ -97,14 +97,16 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore/DeltaCore.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore-library/DeltaCore.bundle"
   install_resource "${PODS_ROOT}/../External/Roxas/Roxas/RSTCollectionViewCell.xib"
   install_resource "${PODS_ROOT}/../External/Roxas/Roxas/RSTPlaceholderView.xib"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-library/ZIPFoundation_Privacy.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore/DeltaCore.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore-library/DeltaCore.bundle"
   install_resource "${PODS_ROOT}/../External/Roxas/Roxas/RSTCollectionViewCell.xib"
   install_resource "${PODS_ROOT}/../External/Roxas/Roxas/RSTPlaceholderView.xib"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-library/ZIPFoundation_Privacy.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
