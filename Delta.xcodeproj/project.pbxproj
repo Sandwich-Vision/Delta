@@ -33,6 +33,13 @@
 
 /* Begin PBXBuildFile section */
 		1FA4ABA79AB72914FE414A61 /* libPods-Delta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC866E433B3BA9AE18ABA1EC /* libPods-Delta.a */; };
+		434E4AF06379F4E0FBC0B336 /* Pods_Delta_Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3C73BD006A133009ECA2C7 /* Pods_Delta_Vision.framework */; };
+		6E34E1F62C6C780C00948CEC /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 6E34E1F52C6C780C00948CEC /* RealityKitContent */; };
+		6E34E1F82C6C780C00948CEC /* Delta_VisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34E1F72C6C780C00948CEC /* Delta_VisionApp.swift */; };
+		6E34E1FA2C6C780C00948CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34E1F92C6C780C00948CEC /* ContentView.swift */; };
+		6E34E1FC2C6C780C00948CEC /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34E1FB2C6C780C00948CEC /* ImmersiveView.swift */; };
+		6E34E1FE2C6C780D00948CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E34E1FD2C6C780D00948CEC /* Assets.xcassets */; };
+		6E34E2012C6C780D00948CEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E34E2002C6C780D00948CEC /* Preview Assets.xcassets */; };
 		87343D7B985519A5890A61C6 /* libPods-DeltaPreviews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3E5A45AB20C8A87754453B /* libPods-DeltaPreviews.a */; };
 		AC1AE30A2A69BD3A00956EB9 /* AlternateAppIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1AE3092A69BD3A00956EB9 /* AlternateAppIcons.swift */; };
 		AC1AE30C2A6A068F00956EB9 /* Bundle+AppIconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1AE30B2A6A068F00956EB9 /* Bundle+AppIconImage.swift */; };
@@ -234,6 +241,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6E1066132C6F19EB00618CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFA71CF1AAC406100EE9DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF6E70B925D2187800E41CD1;
+			remoteInfo = Systems;
+		};
 		BFEBE58225D3388F00222319 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFFA71CF1AAC406100EE9DD1 /* Project object */;
@@ -274,7 +288,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		033B4B243FECF801D55E61FD /* Pods-Delta-Vision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delta-Vision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Delta-Vision/Pods-Delta-Vision.debug.xcconfig"; sourceTree = "<group>"; };
+		0E3C73BD006A133009ECA2C7 /* Pods_Delta_Vision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delta_Vision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13576CB4895FF3E3A45CDFAC /* Pods-Delta-Vision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delta-Vision.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delta-Vision/Pods-Delta-Vision.release.xcconfig"; sourceTree = "<group>"; };
 		22506DA00971C4300AF90A35 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E34E1F12C6C780C00948CEC /* Delta-Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delta-Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E34E1F42C6C780C00948CEC /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		6E34E1F72C6C780C00948CEC /* Delta_VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delta_VisionApp.swift; sourceTree = "<group>"; };
+		6E34E1F92C6C780C00948CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E34E1FB2C6C780C00948CEC /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		6E34E1FD2C6C780D00948CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E34E2002C6C780D00948CEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E34E2022C6C780D00948CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3E5A45AB20C8A87754453B /* libPods-DeltaPreviews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeltaPreviews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECE6641DE30D01EA30FE7F6 /* Pods-DeltaPreviews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeltaPreviews.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeltaPreviews/Pods-DeltaPreviews.release.xcconfig"; sourceTree = "<group>"; };
 		A01281C7023C0041B25963BE /* Pods-DeltaPreviews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeltaPreviews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeltaPreviews/Pods-DeltaPreviews.debug.xcconfig"; sourceTree = "<group>"; };
@@ -510,6 +535,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6E34E1EE2C6C780C00948CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E34E1F62C6C780C00948CEC /* RealityKitContent in Frameworks */,
+				434E4AF06379F4E0FBC0B336 /* Pods_Delta_Vision.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFFA71D41AAC406100EE9DD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,6 +582,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E34E1F22C6C780C00948CEC /* Delta-Vision */ = {
+			isa = PBXGroup;
+			children = (
+				6E34E1F72C6C780C00948CEC /* Delta_VisionApp.swift */,
+				6E34E1F92C6C780C00948CEC /* ContentView.swift */,
+				6E34E1FB2C6C780C00948CEC /* ImmersiveView.swift */,
+				6E34E1FD2C6C780D00948CEC /* Assets.xcassets */,
+				6E34E2022C6C780D00948CEC /* Info.plist */,
+				6E34E1FF2C6C780D00948CEC /* Preview Content */,
+			);
+			path = "Delta-Vision";
+			sourceTree = "<group>";
+		};
+		6E34E1F32C6C780C00948CEC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				6E34E1F42C6C780C00948CEC /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		6E34E1FF2C6C780D00948CEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E34E2002C6C780D00948CEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BF090CEE1B490C1A00DCAB45 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -883,6 +946,7 @@
 				22506DA00971C4300AF90A35 /* Pods.framework */,
 				DC866E433B3BA9AE18ABA1EC /* libPods-Delta.a */,
 				7E3E5A45AB20C8A87754453B /* libPods-DeltaPreviews.a */,
+				0E3C73BD006A133009ECA2C7 /* Pods_Delta_Vision.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -988,8 +1052,10 @@
 				BFFA71D91AAC406100EE9DD1 /* Delta */,
 				D539103029E88B6C0006B350 /* DeltaPreviews */,
 				D5D7C1F229E60E0000663793 /* DeltaFeatures */,
+				6E34E1F22C6C780C00948CEC /* Delta-Vision */,
 				BF9F4FCD1AAD7B25004C9500 /* Frameworks */,
 				BFEC732F1AAECCBD00650035 /* Resources */,
+				6E34E1F32C6C780C00948CEC /* Packages */,
 				BFFA71D81AAC406100EE9DD1 /* Products */,
 				FD1E8AE87FA2DB8793F7B937 /* Pods */,
 			);
@@ -1001,6 +1067,7 @@
 				BFFA71D71AAC406100EE9DD1 /* Delta.app */,
 				D5D7C1F129E60DFF00663793 /* libDeltaFeatures.a */,
 				D539102F29E88B6B0006B350 /* DeltaPreviews.framework */,
+				6E34E1F12C6C780C00948CEC /* Delta-Vision.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1233,6 +1300,8 @@
 				A19FF50F55441BC2B2248241 /* Pods-Delta.release.xcconfig */,
 				A01281C7023C0041B25963BE /* Pods-DeltaPreviews.debug.xcconfig */,
 				8ECE6641DE30D01EA30FE7F6 /* Pods-DeltaPreviews.release.xcconfig */,
+				033B4B243FECF801D55E61FD /* Pods-Delta-Vision.debug.xcconfig */,
+				13576CB4895FF3E3A45CDFAC /* Pods-Delta-Vision.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1251,6 +1320,29 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6E34E1F02C6C780C00948CEC /* Delta-Vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E34E2052C6C780D00948CEC /* Build configuration list for PBXNativeTarget "Delta-Vision" */;
+			buildPhases = (
+				6D25960A77B8090D1FF46E50 /* [CP] Check Pods Manifest.lock */,
+				6E34E1ED2C6C780C00948CEC /* Sources */,
+				6E34E1EE2C6C780C00948CEC /* Frameworks */,
+				6E34E1EF2C6C780C00948CEC /* Resources */,
+				06CB2EC8DDF7571EB9A16209 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E1066142C6F19EB00618CC0 /* PBXTargetDependency */,
+			);
+			name = "Delta-Vision";
+			packageProductDependencies = (
+				6E34E1F52C6C780C00948CEC /* RealityKitContent */,
+			);
+			productName = "Delta-Vision";
+			productReference = 6E34E1F12C6C780C00948CEC /* Delta-Vision.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFFA71D61AAC406100EE9DD1 /* Delta */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFFA71F61AAC406100EE9DD1 /* Build configuration list for PBXNativeTarget "Delta" */;
@@ -1320,10 +1412,13 @@
 			isa = PBXProject;
 			attributes = {
 				DefaultBuildSystemTypeForWorkspace = Original;
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Riley Testut";
 				TargetAttributes = {
+					6E34E1F02C6C780C00948CEC = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					BF14D8941DE7A512002CA1BE = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 6XVY5G3U44;
@@ -1374,11 +1469,21 @@
 				BF6E70B925D2187800E41CD1 /* Systems */,
 				D539102E29E88B6B0006B350 /* DeltaPreviews */,
 				D5D7C1F029E60DFF00663793 /* DeltaFeatures */,
+				6E34E1F02C6C780C00948CEC /* Delta-Vision */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6E34E1EF2C6C780C00948CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E34E2012C6C780D00948CEC /* Preview Assets.xcassets in Resources */,
+				6E34E1FE2C6C780D00948CEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFFA71D51AAC406100EE9DD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1409,6 +1514,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06CB2EC8DDF7571EB9A16209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delta-Vision/Pods-Delta-Vision-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DeltaCore-framework/DeltaCore.framework",
+				"${BUILT_PRODUCTS_DIR}/ZIPFoundation-framework/ZIPFoundation.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeltaCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delta-Vision/Pods-Delta-Vision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0E0279E4F38215820BB0C9A0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1417,7 +1542,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Delta/Pods-Delta-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/DSDeltaCore/DSDeltaCore.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore/DeltaCore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore-library/DeltaCore.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/GBADeltaCore/GBADeltaCore.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/GBCDeltaCore/GBCDeltaCore.bundle",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
@@ -1430,6 +1555,7 @@
 				"${PODS_ROOT}/../External/Roxas/Roxas/RSTCollectionViewCell.xib",
 				"${PODS_ROOT}/../External/Roxas/Roxas/RSTPlaceholderView.xib",
 				"${PODS_CONFIGURATION_BUILD_DIR}/SNESDeltaCore/SNESDeltaCore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-library/ZIPFoundation_Privacy.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -1447,10 +1573,33 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSTCollectionViewCell.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSTPlaceholderView.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SNESDeltaCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZIPFoundation_Privacy.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delta/Pods-Delta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D25960A77B8090D1FF46E50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delta-Vision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		92EDD9C0CE3127182B2AF907 /* [CP] Check Pods Manifest.lock */ = {
@@ -1513,15 +1662,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DeltaPreviews/Pods-DeltaPreviews-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore/DeltaCore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore-library/DeltaCore.bundle",
 				"${PODS_ROOT}/../External/Roxas/Roxas/RSTCollectionViewCell.xib",
 				"${PODS_ROOT}/../External/Roxas/Roxas/RSTPlaceholderView.xib",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-library/ZIPFoundation_Privacy.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DeltaCore.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSTCollectionViewCell.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSTPlaceholderView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZIPFoundation_Privacy.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1549,6 +1700,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6E34E1ED2C6C780C00948CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E34E1FA2C6C780C00948CEC /* ContentView.swift in Sources */,
+				6E34E1F82C6C780C00948CEC /* Delta_VisionApp.swift in Sources */,
+				6E34E1FC2C6C780C00948CEC /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFFA71D31AAC406100EE9DD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1743,6 +1904,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6E1066142C6F19EB00618CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF6E70B925D2187800E41CD1 /* Systems */;
+			targetProxy = 6E1066132C6F19EB00618CC0 /* PBXContainerItemProxy */;
+		};
 		BFEBE58325D3388F00222319 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BF6E70B925D2187800E41CD1 /* Systems */;
@@ -1795,6 +1961,91 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6E34E2032C6C780D00948CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033B4B243FECF801D55E61FD /* Pods-Delta-Vision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"Delta-Vision/Preview Content\"";
+				DEVELOPMENT_TEAM = VMAY6SU9SH;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "vision.sandwich.Delta-Vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		6E34E2042C6C780D00948CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13576CB4895FF3E3A45CDFAC /* Pods-Delta-Vision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Delta-Vision/Preview Content\"";
+				DEVELOPMENT_TEAM = VMAY6SU9SH;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "vision.sandwich.Delta-Vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
 		BF14D8951DE7A512002CA1BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1814,6 +2065,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos xros";
 			};
 			name = Debug;
 		};
@@ -1822,6 +2074,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos xros";
 			};
 			name = Release;
 		};
@@ -2157,6 +2410,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6E34E2052C6C780D00948CEC /* Build configuration list for PBXNativeTarget "Delta-Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E34E2032C6C780D00948CEC /* Debug */,
+				6E34E2042C6C780D00948CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BF14D8971DE7A512002CA1BE /* Build configuration list for PBXAggregateTarget "mogenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2225,6 +2487,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6E34E1F52C6C780C00948CEC /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
 		D524F4A0273DE9A100D500B2 /* AltKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D524F49F273DE9A100D500B2 /* XCRemoteSwiftPackageReference "AltKit" */;

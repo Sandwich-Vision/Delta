@@ -7,7 +7,7 @@ PODS:
   - AppAuth/ExternalUserAgent (1.6.2):
     - AppAuth/Core
   - DeltaCore (0.1):
-    - ZIPFoundation
+    - ZIPFoundation (~> 0.9.19)
   - DSDeltaCore (0.1):
     - DeltaCore
   - GBADeltaCore (0.1):
@@ -66,7 +66,7 @@ PODS:
   - SQLite.swift/standard (0.12.2)
   - SwiftyDropbox (5.0.0):
     - Alamofire (~> 4.7.3)
-  - ZIPFoundation (0.9.11)
+  - ZIPFoundation (0.9.19)
 
 DEPENDENCIES:
   - DeltaCore (from `Cores/DeltaCore`)
@@ -122,7 +122,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
-  DeltaCore: 6a430005ea397fcd5b40b964effe41ac69cc9037
+  DeltaCore: 09ce6fc1f23e7de7ef1b6d5709f42ea7e8d5d5f0
   DSDeltaCore: d22a7cfbbe70f063b8c72dec9d1bcd2c59e14893
   GBADeltaCore: c2f7ce5e5616ed63d2b99c9ba9a7e020f2263248
   GBCDeltaCore: 27f09a1c88a4ac832aa549fbe34aaf277251b6b8
@@ -140,8 +140,8 @@ SPEC CHECKSUMS:
   SNESDeltaCore: d9b60ba8851d5d9cc8ab61616cc72396c292c87b
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   SwiftyDropbox: 378b4425a2e8d0cb24c7b0f2e3af72bfbaaf1e73
-  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+  ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
 
-PODFILE CHECKSUM: b33e8da65952bdb2b77ee1fca9bd0104d3da1713
+PODFILE CHECKSUM: 03c48595b392d7906a1540b4315f08e1e71de98b
 
 COCOAPODS: 1.15.2

@@ -21,6 +21,13 @@ target 'Delta' do
     pod 'Harmony', :path => 'External/Harmony'
 end
 
+target 'Delta-Vision' do
+    platform :visionos, '1.0'
+    use_frameworks!
+
+    pod 'DeltaCore', :path => 'Cores/DeltaCore'
+end
+
 target 'DeltaPreviews' do
     use_modular_headers!
 
