@@ -4,16 +4,17 @@
 set -e
 
 SCHEME="Systems"
-PLATFORM="iOS"
+PLATFORM="visionOS"
+CONFIGURATION="Debug"
 
 BUILD_DIR=".build"
 
 case $PLATFORM in
-"iOS")
-CONFIG_FOLDER="${CONFIGURATION}-iphoneos"
+"visionOS")
+CONFIG_FOLDER="${CONFIGURATION}-xros"
 ;;
-"iOS Simulator")
-CONFIG_FOLDER="${CONFIGURATION}-iphonesimulator"
+"visionOS Simulator")
+CONFIG_FOLDER="${CONFIGURATION}-xrossimulator"
 ;;
 esac
 
