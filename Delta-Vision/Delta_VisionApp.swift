@@ -6,10 +6,16 @@
 //  Copyright © 2024 Riley Testut. All rights reserved.
 //
 
+import DeltaCore
 import SwiftUI
 
 @main
 struct Delta_VisionApp: App {
+
+    init() {
+        debugPrint("registered cores: \(Delta.registeredCores)")
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
